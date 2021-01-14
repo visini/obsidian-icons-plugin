@@ -35,11 +35,13 @@ Icon Set|License|Version|Count
 [Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
 
 
-### How to use
+## How to use
 
 - Clone this repo to `./your-obsidian-vault/.obsidian/plugins/`
 - `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
+
+## Development
 
 ### Releasing new releases
 
