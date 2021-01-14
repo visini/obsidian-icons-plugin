@@ -1,4 +1,4 @@
-# Obsidian Icons Plugin – BETA ⚠️
+# Obsidian Icons Plugin
 
 ![Obsidian Icons Plugin](docs/banner.png)
 
