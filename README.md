@@ -2,6 +2,8 @@
 
 ![Obsidian Icons Plugin](docs/banner.png)
 
+> ⚠️ **IMPORTANT**: As this is an experimental version, this plugin cannot (yet) be installed via community plugins from within Obsidian, but must be manually downloaded and activated (see [How to use](#How-to-Use-(BETA)) for manual installation instructions)
+
 Add icons to your Obsidian notes. Supported icon sets:
 
 - [Remix Icon](https://remixicon.com/) - 2172 icons
@@ -19,6 +21,11 @@ This plugin uses [react-icons](https://github.com/react-icons/react-icons) to re
 
 ![Screenshot Rendered](docs/screenshot-rendered.png)
 > The rendered markdown will display the icons accordingly.
+
+
+## How to report bugs
+
+As this is an experimental plugin, bugs are expected to occur. Kindly open an issue in this repository and describe in detail what bug you encountered.
 
 ## Icon Sets and Licenses
 
