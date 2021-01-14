@@ -10,7 +10,7 @@ Add icons to your Obsidian notes. Supported icon sets:
 - [FontAwesome (Free)](https://fontawesome.com/) - 1560 icons
 - _Roadmap includes more icon sets_
 
-You can toggle which icon set you want to display in the icon picker from within the _Icons Plugin_ settings.
+You can toggle which icon set(s) you want to display in the icon picker from within the _Icons Plugin_ settings.
 
 This plugin uses [react-icons](https://github.com/react-icons/react-icons) to render icons via a Markdown postprocessor. Inspired by [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) and based on [obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 ## Demo and Screenshots
