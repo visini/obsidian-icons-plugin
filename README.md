@@ -12,14 +12,13 @@ This plugin uses [react-icons](https://github.com/react-icons/react-icons) to re
 ## Demo and Screenshots
 
 ![Demonstration](docs/demo.gif)
-A demonstration video showing the icon picker and the rendered markdown.
+> A demonstration video showing the icon picker and the rendered markdown.
 
 ![Screenshot Picker](docs/screenshot-picker.png)
-Select any icon from the icon picker (selectively activate icon packs in the settings).
+> Select any icon from the icon picker (selectively activate icon packs in the settings).
 
 ![Screenshot Rendered](docs/screenshot-rendered.png)
-The rendered markdown will display the icons accordingly.
-
+> The rendered markdown will display the icons accordingly.
 
 ## Icon Sets and Licenses
 
