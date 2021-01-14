@@ -5,12 +5,13 @@
 Add icons to your Obsidian notes. Supported icon sets:
 
 - [Remix Icon](https://remixicon.com/) - 2271 icons
-- [FontAwesome (Free)](https://fontawesome.com/) - 2271 icons
+- [FontAwesome (Free)](https://fontawesome.com/) - 1,609 icons
 - _Roadmap includes more icon sets_
 
+This plugin uses [react-icons](https://github.com/react-icons/react-icons) to render icons via a Markdown postprocessor. Inspired by [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) and based on [obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 ## Demo and Screenshots
 
-![Demonstration](docs/demo.mov)
+![Demonstration](docs/demo.gif)
 A demonstration video showing the icon picker and the rendered markdown.
 
 ![Screenshot Picker](docs/screenshot-picker.png)
@@ -21,7 +22,7 @@ The rendered markdown will display the icons accordingly.
 
 ### How to use (BETA)
 
-- Clone this repo.
+- Clone this repo to `./your-obsidian-vault/.obsidian/plugins/`
 - `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
 
