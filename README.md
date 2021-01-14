@@ -25,8 +25,7 @@ The rendered markdown will display the icons accordingly.
 
 Icon Library|License|Version|Count
 ---|---|---|---
-[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1
-0d1f27efb836eb2ab994ba37221849ed64a73e5c|1560
+[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1|1560
 [Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
 
 
