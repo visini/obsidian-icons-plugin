@@ -2,7 +2,7 @@
 
 ![Obsidian Icons Plugin](docs/banner.png)
 
-> ⚠️ **IMPORTANT**: As this is an experimental version, this plugin cannot (yet) be installed via community plugins from within Obsidian, but must be manually downloaded and activated (see [How to use](#How-to-Use-(BETA)) for manual installation instructions)
+> ⚠️ **IMPORTANT**: As this is an experimental version, this plugin cannot (yet) be installed via community plugins from within Obsidian, but must be manually downloaded and activated (see [How to use](#How-to-use) for manual installation instructions)
 
 Add icons to your Obsidian notes. Supported icon sets:
 
@@ -35,7 +35,7 @@ Icon Set|License|Version|Count
 [Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
 
 
-### How to use (BETA)
+### How to use
 
 - Clone this repo to `./your-obsidian-vault/.obsidian/plugins/`
 - `yarn` to install dependencies
