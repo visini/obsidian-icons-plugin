@@ -20,6 +20,16 @@ Select any icon from the icon picker (selectively activate icon packs in the set
 ![Screenshot Rendered](docs/screenshot-rendered.png)
 The rendered markdown will display the icons accordingly.
 
+
+## Icons
+
+Icon Library|License|Version|Count
+---|---|---|---
+[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1
+0d1f27efb836eb2ab994ba37221849ed64a73e5c|1560
+[Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
+
+
 ### How to use (BETA)
 
 - Clone this repo to `./your-obsidian-vault/.obsidian/plugins/`
