@@ -12,3 +12,6 @@ main.js
 
 # settings
 data.json
+
+# macos
+.DS_Store
