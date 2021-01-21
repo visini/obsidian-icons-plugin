@@ -2,7 +2,7 @@
 
 ![Obsidian Icons Plugin](docs/banner.png)
 
-> ⚠️ **IMPORTANT**: As this is an experimental version, this plugin cannot (yet) be installed via community plugins from within Obsidian, but must be manually downloaded and activated (see [How to use](#How-to-use) for manual installation instructions)
+> **Note:**: This is an experimental plugin. Please report any bugs you encounter by opening a new issue on GitHub.
 
 Add icons to your Obsidian notes. Supported icon sets:
 
