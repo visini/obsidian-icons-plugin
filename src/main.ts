@@ -110,8 +110,8 @@ export default class IconsPlugin extends Plugin {
     await this.loadSettings()
 
     this.addCommand({
-      id: "open-sample-modal",
-      name: "Open Sample Modal",
+      id: "open-icons-plugin-modal",
+      name: "Insert Icon",
       hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "i" }],
       callback: () => {
         const modal = new IconsPluginPickerModal(this.app, this, this.settings)
