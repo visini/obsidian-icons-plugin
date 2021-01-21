@@ -36,14 +36,13 @@ Icon Set|License|Version|Count
 [Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1|1560
 [Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
 
+## Development
 
-## How to use
+## How to develop
 
 - Clone this repo to `./your-obsidian-vault/.obsidian/plugins/`
 - `yarn` to install dependencies
 - `npm run dev` to start compilation in watch mode.
-
-## Development
 
 ### Releasing new releases
 
@@ -52,12 +51,7 @@ Icon Set|License|Version|Count
 - Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
 - Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments.
 - Publish the release.
-
-### Adding your plugin to the community plugin list
-
-- Publish an initial version.
-- Make sure you have a `README.md` file in the root of your repo.
-- Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
+- Use `make release` for convenience
 
 ### Manually installing the plugin
 
