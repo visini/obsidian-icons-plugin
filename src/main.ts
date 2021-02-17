@@ -21,6 +21,7 @@ export interface IconsPluginSettings {
   enableRir: boolean
   enableFas: boolean
   enableFar: boolean
+  aliasMapping: string
 }
 
 const DEFAULT_SETTINGS: IconsPluginSettings = {
@@ -28,22 +29,40 @@ const DEFAULT_SETTINGS: IconsPluginSettings = {
   enableRir: false,
   enableFas: false,
   enableFar: false,
+  aliasMapping: "",
 }
 
 export default class IconsPlugin extends Plugin {
   settings: IconsPluginSettings
 
-  public static postprocessor: MarkdownPostProcessor = (
+  public postprocessor: MarkdownPostProcessor = (
     el: HTMLElement,
     ctx: MarkdownPostProcessorContext
   ) => {
     const blocksToReplace = el.querySelectorAll("code")
     if (!blocksToReplace) return
 
+    const allAliases = this.settings.aliasMapping
+      .split("\n")
+      .reduce((obj, line) => {
+        var cols = line.split("=")
+        // Tolerate empty lines. There may be one at the end of the input.
+        if (cols.length >= 2) {
+          obj[cols[0]] = cols[1]
+        }
+        return obj
+      }, {})
+
     Array.prototype.forEach.call(
       blocksToReplace,
       function (blockToReplace: ChildNode) {
-        const block = blockToReplace.textContent
+        let block = blockToReplace.textContent
+
+        if (Object.keys(allAliases).contains(block)) {
+          block = allAliases[block]
+          console.log(block)
+        }
+
         let iconPrefix: string = "fas"
         if (block.startsWith("fas:")) {
           iconPrefix = "fas"
@@ -105,9 +124,9 @@ export default class IconsPlugin extends Plugin {
   async onload() {
     console.log("loading plugin")
 
-    MarkdownPreviewRenderer.registerPostProcessor(IconsPlugin.postprocessor)
-
     await this.loadSettings()
+
+    MarkdownPreviewRenderer.registerPostProcessor(this.postprocessor)
 
     this.addCommand({
       id: "open-icons-plugin-modal",
@@ -124,7 +143,7 @@ export default class IconsPlugin extends Plugin {
 
   onunload() {
     console.log("unloading plugin")
-    MarkdownPreviewRenderer.unregisterPostProcessor(IconsPlugin.postprocessor)
+    MarkdownPreviewRenderer.unregisterPostProcessor(this.postprocessor)
   }
 
   async loadSettings() {

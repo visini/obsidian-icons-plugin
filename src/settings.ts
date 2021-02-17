@@ -72,5 +72,19 @@ export default class IconsPluginSettingTab extends PluginSettingTab {
             await this.plugin.saveSettings()
           })
       )
+
+    new Setting(containerEl)
+      .setName("Icon Alias Mapping")
+      .setDesc(
+        "Add aliases for your favorite icons (one alias-to-icon mapping per line). For example, to use `heart` as an alias for the fas:Heart icon, enter: heart=fas:Heart"
+      )
+      .addTextArea((textArea) =>
+        textArea
+          .setValue(this.plugin.settings.aliasMapping)
+          .onChange(async (value) => {
+            this.plugin.settings.aliasMapping = value
+            await this.plugin.saveSettings()
+          })
+      )
   }
 }
