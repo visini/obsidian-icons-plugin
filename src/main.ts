@@ -60,7 +60,6 @@ export default class IconsPlugin extends Plugin {
 
         if (Object.keys(allAliases).contains(block)) {
           block = allAliases[block]
-          console.log(block)
         }
 
         let iconPrefix: string = "fas"
