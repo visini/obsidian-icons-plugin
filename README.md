@@ -1,8 +1,8 @@
 # Obsidian Icons Plugin
 
-![Obsidian Icons Plugin](docs/banner.png)
+![Obsidian Icons Plugin](https://github.com/visini/obsidian-icons-plugin/blob/main/docs/banner.png?raw=true)
 
-> **Note:**: This is an experimental plugin. Please report any bugs you encounter by opening a new issue on GitHub.
+> **Note:**: Please report any bugs you encounter by opening a new issue on GitHub.
 
 Add icons to your Obsidian notes. Supported icon sets:
 
@@ -15,13 +15,13 @@ You can toggle which icon set(s) you want to display in the icon picker from wit
 This plugin uses [react-icons](https://github.com/react-icons/react-icons) to render icons via a Markdown postprocessor. Inspired by [obsidian-citation-plugin](https://github.com/hans/obsidian-citation-plugin) and based on [obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
 ## Demo and Screenshots
 
-![Demonstration](docs/demo.gif)
+![Demonstration](https://github.com/visini/obsidian-icons-plugin/blob/main/docs/demo.gif?raw=true)
 > A demonstration video showing the icon picker and the rendered markdown.
 
-![Screenshot Picker](docs/screenshot-picker.png)
+![Screenshot Picker](https://github.com/visini/obsidian-icons-plugin/blob/main/docs/screenshot-picker.png?raw=true)
 > Select any icon from the icon picker (selectively activate icon packs in the settings).
 
-![Screenshot Rendered](docs/screenshot-rendered.png)
+![Screenshot Rendered](https://github.com/visini/obsidian-icons-plugin/blob/main/docs/screenshot-rendered.png?raw=true)
 > The rendered markdown will display the icons accordingly.
 
 
