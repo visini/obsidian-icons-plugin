@@ -36,6 +36,28 @@ Icon Set|License|Version|Count
 [Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)|5.12.1|1560
 [Remix Icon](https://github.com/Remix-Design/RemixIcon)|[Apache License Version 2.0](http://www.apache.org/licenses/)|2.5.0|2172
 
+## Customizing Icons
+
+In order to customize the icons in order to change their color, size, etc, you should make a CSS snippet.
+
+To do this, follow these steps:
+
+1. Go to Settings -> Appearance -> CSS Snippets 
+2. Turn on the CSS Snippets option and then click the folder to navigate to it's folder.
+3. Make a new file called icons.css
+4. Open icons.css in your preferred text editor
+5. Add the following:
+	```
+	.obsidian-icon {
+  		... changes go here.
+	}
+	```
+6. Go Back to Settings -> Appearance -> CSS Snippets
+7. Click the reload button
+8. A button with the title "icons" should appear, turn it on.
+
+Your changes will now be applied and you can edit the file when you want.
+
 ## Development
 
 ## How to develop
